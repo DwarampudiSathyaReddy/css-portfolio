@@ -1,0 +1,54 @@
+
+.container{
+    margin-left: 0%;
+    margin-right: 0%;
+      border:0PX;
+   text-align: center;
+    max-width: 100%;
+    background-color:azure;
+
+}
+ h2{
+    color:blueviolet
+}
+img{
+    align-items: center;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+@media (min-width: 768px){
+.container{
+    max-width: 100%;
+    margin: 0;
+  
+}
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.feature-icon{
+    padding:10px;
+  
+} 
+footer{
+    background-color:  rgb(227, 196, 255);
+}
